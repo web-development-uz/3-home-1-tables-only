@@ -1,0 +1,143 @@
+<html>
+ <body>
+  <h1>Tables</h1>
+  <h2>Basic Table</h2>
+  <table>
+   <tr>
+     <td>14</td>
+     <td>24</td>
+     <td>52</td>
+   </tr>
+   <tr>
+     <td>77</td>
+     <td>39</td>
+     <td>67</td>
+   </tr>
+   <tr>
+     <td>13</td>
+     <td>25</td>
+     <td>51</td>
+   </tr>
+   </table>
+  <br/>
+  <hr/>
+  <br/>
+  <h2>Table With Headings</h2>
+  <h3>Ticket report</h3>
+  <table>
+   <tr>
+      <th></th>
+      <th scope="col">Saturday</th>
+      <th scope="col">Sunday</th>
+   </tr>
+   <tr>
+      <th scope="row">Ticket sold</th>
+      <td>22</td>
+      <td>54</td>
+   </tr>
+   <tr>
+      <th scope="row">Total sales</th>
+      <td>$300</td>
+      <td>$680</td>
+   </tr> 
+  </table>
+  <br/>
+  <hr/>
+  <br/>
+  <h2>Table Spanning Columns</h2>
+  <table border="1">
+   <tr>
+     <th></th>
+     <th>9:00am</th>
+     <th>10:00am</th>
+     <th>11:00am</th>
+     <th>12:00am</th>
+     <th>13:00am</th>
+   </tr>
+   <tr>
+     <th scope="row">Monday</th>
+     <td colspan="3">Geography</td>
+     <td>Math</td>
+     <td>Art</td>
+   </tr>
+   <tr>
+      <th>Tuesday</th>
+      <td>Economics</td>
+      <td colspan="2">English</td>
+      <td>Business</td>
+      <td>Law</td>
+   </tr>
+  </table>
+  <br/>
+  <hr/>
+  <br/>
+  <h2>Table Spanning Rows</h2>
+  <table border="1">
+   <tr>
+     <th></th>
+     <th scope="column">CHANNEL1</th>
+     <th scope="column">CHANNEL2</th>
+     <th scope="column">CHANNEL3</th>
+   </tr>
+   <tr>
+     <th scope="row">6:00 am - 8:00 am</th>
+     <td rowspan="2">Learning</td>
+     <td>Practice</td>
+     <td>Maintenance</td>	   
+   </tr>
+   <tr>
+    <th scope="row">8:00 am - 12:00 am</th>   
+    <td>Sport</td>
+    <td>Software</td>
+   </tr>
+  </table>
+  <br/>
+  <hr/>
+  <br/>
+  <h2>Long tables</h2>
+  <h3>thead, tbody, tfoot</h3>
+  <table border="1">
+    <thead>
+     <tr>
+       <th>Date</th>
+       <th>Income</th>
+       <th>Expenses</th>
+     </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th>1st January</th>
+      <td>$600</td>
+      <td>$120</td>
+    </tr>
+    <tr>
+      <th>2nd January</th>
+      <td>$550</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <th>3rd January</th>
+      <td>$623</td>
+      <td>$112</td>
+    </tr>
+    <tr>
+      <th>4th January</th>
+      <td>$700</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <th>5th January</th>
+      <td>$640</td>
+      <td>$130</td>
+    </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+       <th>Total</th>
+       <td>$4540</td>
+       <td>$1350</td>
+      </tr>
+    </tfoot>
+  </table>
+ </body>
+</html>
